@@ -1,0 +1,10 @@
+PRINT "Input number to get the Fibonacci sequence"
+INPUT nums
+LET a=0
+LET b=1
+WHILE nums > 0 REPEAT
+PRINT a
+LET a=b
+LET b=a+b
+LET nums=nums-1
+ENDWHILE
